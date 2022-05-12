@@ -8,17 +8,11 @@ function Nav(props) {
     currentCategory,
   } = props;
 
-
-  const handleClick = (item) => {
-    console.log(item);
-    return item;
-  };
-
   return (
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+          Alex Chang <span role="img" aria-label="camera"> 👞</span>
         </a>
       </h2>
       <nav>
@@ -27,11 +21,6 @@ function Nav(props) {
             <a data-testid="about" href="#about">
               About me
             </a>
-          </li>
-          <li className={"mx-2"}>
-            <span onClick={() => handleClick('Contact')}>
-              Contact
-            </span>
           </li>
           {categories.map((category) => (
             <li
