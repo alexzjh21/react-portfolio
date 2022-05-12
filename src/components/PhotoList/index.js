@@ -4,73 +4,73 @@ import Modal from '../Modal';
 const PhotoList = ({ category }) => {
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
+      name: 'The High Voltage',
       category: 'works',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Grocery booth',
+      name: 'Dine n Wine',
       category: 'works',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Building exterior',
+      name: 'Food Festival',
       category: 'works',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Cat green eyes',
+      name: 'Ja Morant',
       category: 'creative',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Green parrot',
+      name: 'Trae Young',
       category: 'creative',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Yellow macaw',
+      name: 'Jayson Tatum',
       category: 'creative',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Pug smile',
+      name: 'Steve Nash',
       category: 'creative',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Pancakes',
+      name: 'Resumé',
       category: 'documents',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Burrito',
+      name: 'Skills',
       category: 'documents',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Scallop pasta',
+      name: 'LinkedIn Profile',
       category: 'documents',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Burger',
+      name: 'Github Repository',
       category: 'documents',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Green river',
+      name: 'Contact Information',
       category: 'contact',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'

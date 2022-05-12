@@ -15,6 +15,17 @@ function Modal({onClose, currentPhoto}) {
                 <button onClick={onClose} type="button">
                     Close this modal
                 </button>
+
+                {category === "works" && 
+                    <button type="button">Visit Website</button>
+                }
+                {category === "creative" && 
+                    <button type="button">Visit Website</button>
+                }
+                {category === "contact" && 
+                    <button type="button">Visit Website</button>
+                }
+                
             </div>
         </div>
     );
