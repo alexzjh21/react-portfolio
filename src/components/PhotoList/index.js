@@ -58,19 +58,7 @@ const PhotoList = ({ category }) => {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'LinkedIn Profile',
-      category: 'documents',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
-      name: 'Github Repository',
-      category: 'documents',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
-      name: 'Contact Information',
+      name: 'Email',
       category: 'contact',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
@@ -94,7 +82,7 @@ const PhotoList = ({ category }) => {
           <img
           src={require(`../../assets/small/${category}/${i}.jpg`)}
           alt={image.name}
-          className="img-thumbnail mx-1"
+          className="img-thumbnail mx-p"
           onClick={() => toggleModal(image, i)}
           key={image.name}
           />

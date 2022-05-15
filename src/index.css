@@ -91,6 +91,11 @@ a:hover {
   text-decoration: underline;
 }
 
+li:hover {
+  transform: scale(1.2);
+  color:#F3A847;
+}
+
 header {
   background: var(--dark);
 }
@@ -195,6 +200,21 @@ textarea {
   margin-left: var(--spacing-two);
 }
 
+.mx-p {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.mx-m {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.mx-b {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 .my-1 {
   margin-top: var(--spacing-one);
   margin-bottom: var(--spacing-one);
@@ -236,10 +256,41 @@ textarea {
 }
 
 .img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
+  width: 400px;
+  height: 250px;
+  margin-bottom: 40px;
+  margin-top: 40px;
   cursor: pointer;
+}
+
+.img-modal{
+  width: 400px;
+  height: 250px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.img-docs {
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 800px;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.img-contact {
+  margin-left: 200px;
+  margin-right: 150px;
+  height: 300px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.cover {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .modalBackdrop {

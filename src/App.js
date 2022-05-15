@@ -5,11 +5,12 @@ import Gallery from './components/Gallery';
 
 function App() {
   const [categories] = useState([
-    { name: 'works', description: 'Below are the projects I have worked on. Click on a image for details' },
-    { name: 'creative', description: 'I create TikTok videos for NBA players. Check them out!' },
-    { name: 'documents', description: 'Here\'s my resumé, list of skills, and external links' },
+    { name: 'works', description: 'Below are the projects I have worked on. Click on a image to see more' },
+    { name: 'creative', description: 'I create Douyin (Chinese TikTok) videos for NBA players. Check them out!' },
+    { name: 'documents', description: 'Here\'s my resumé and list of skills' },
     { name: 'contact', description: 'Need more information? Contact me!' },
-  ]); 
+  ]);
+ 
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
@@ -21,8 +22,8 @@ function App() {
         currentCategory={currentCategory}
       ></Nav>
       <main>
-        <Gallery currentCategory={currentCategory}></Gallery>
-        <About></About>
+            <Gallery currentCategory={currentCategory}></Gallery>
+            <About></About>
       </main>
     </div>
   );
