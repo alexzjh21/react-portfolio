@@ -16,12 +16,6 @@ const PhotoList = ({ category }) => {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Food Festival',
-      category: 'works',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
       name: 'Ja Morant',
       category: 'creative',
       description:

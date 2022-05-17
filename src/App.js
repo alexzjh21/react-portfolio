@@ -25,6 +25,17 @@ function App() {
             <Gallery currentCategory={currentCategory}></Gallery>
             <About></About>
       </main>
+      <footer className="foot">
+        <div className="icon-container">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+          <a href ="https://www.linkedin.com/in/alex-chang-bb145a220/" alt="Linkedin Profile">
+            <i className="fa fa-linkedin fa-4x icon"></i> 
+          </a>
+          <a href ="https://github.com/alexzjh21" alt="Github Repository">
+            <i className="fa fa-github fa-4x icon"></i> 
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
